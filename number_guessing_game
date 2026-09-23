@@ -1,0 +1,38 @@
+set play_agin to "y" or "Y"
+#While the user has presses "y" or "Y"
+
+    #Computer generates a random number between 1 and 100 
+
+    #While the user has not guessed the number
+
+
+        # Ask the user for a guess between 1 and 100 
+
+        #While the guess is < 1 or > 100, 
+        #   Print "Invalid guess, please enter a number between 1 and 100"
+
+
+        #Increment number of guesses after each valid guess
+
+        #If the guess is > than the secret number, tell the user, print "Lower"
+        #If the guess is < than the secret number, tell the user, print "Higher"
+
+    #loop ends when the user guesses the number
+
+
+
+    #If the guess is == to the secret number, tell the user, print "You guessed it in x tries!"
+
+
+    #Write all of the IF statetments for the compliment given based on the number of guesses
+
+
+
+
+
+
+
+
+
+
+    #Learn for loop vs while loop

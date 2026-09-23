@@ -1,0 +1,20 @@
+numbers = [5, 16, -3, 8, 12]
+
+positive_count = 0
+negative_count = 0
+zero_count = 0
+
+
+# If positive, add one to positive_count
+if numbers[0] > 0:
+    print("The number is positive.")
+    positive_count += 1
+# If negative, add one to negative_count
+elif numbers[0] < 0:
+    negative_count += 1
+# If zero, add one to zero_count
+elif numbers[0] == 0
+    print("The number is zero.")
+    zero_count += 1
+
+
