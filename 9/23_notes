@@ -7,6 +7,10 @@ print("Here is more code!")
 
 print("Next version!")
 
+numbers_2 = [3, 13, -8, 6]
+
+
+
 
 
 
