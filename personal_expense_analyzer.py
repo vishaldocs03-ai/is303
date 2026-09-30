@@ -5,7 +5,7 @@ number_of_expenses = 0
 
 #loop to keep asking for expenses unless user enters 0
 while expense != 0:
-
+    
     expense = float(input("Please enter an expense or 0 to finish: "))
 
     #check for negative user input, and prompt them to enter a positive amount
