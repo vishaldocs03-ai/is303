@@ -1,0 +1,8 @@
+blah = [1, 7, 19, 22, 24, 0]
+
+for i in range (0, 5):
+    if blah[i] % 2 == 0:
+        print(f"The number {blah[i]} is even!")
+    else:
+        print(f"The number {blah[i]} is odd!")
+    i += 1

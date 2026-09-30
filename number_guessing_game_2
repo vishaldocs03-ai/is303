@@ -1,0 +1,10 @@
+
+#Generate a random number between 0 and 100, store as secret_number
+
+#Ask the player to guess the number, store as player_guess
+
+#increment guesses by 1
+
+#
+
+

@@ -1,38 +1,42 @@
-set play_agin to "y" or "Y"
-#While the user has presses "y" or "Y"
-
-    #Computer generates a random number between 1 and 100 
-
-    #While the user has not guessed the number
+import random
 
 
-        # Ask the user for a guess between 1 and 100 
+secret_number = random.randint(1,100)
 
-        #While the guess is < 1 or > 100, 
-        #   Print "Invalid guess, please enter a number between 1 and 100"
+number_of_guesses = 0
 
-
-        #Increment number of guesses after each valid guess
-
-        #If the guess is > than the secret number, tell the user, print "Lower"
-        #If the guess is < than the secret number, tell the user, print "Higher"
-
-    #loop ends when the user guesses the number
+user_guess = int(input("Enter a guess between 1 and 100: "))
 
 
 
-    #If the guess is == to the secret number, tell the user, print "You guessed it in x tries!"
+while user_guess != secret_number:
+    
+    if user_guess > 100 or user_guess < 1:
+        print("Invalid guess, please try again!")
+
+    while user_guess != secret_number:
+        if user_guess < secret_number:
+                number_of_guesses += 1
+                print("Higher!")
+        elif user_guess > secret_number:
+                    number_of_guesses += 1
+                    print("Lower!")
+
+    if user_guess == secret_number:
+        if number_of_guesses <= 3:
+            print("Amazing!")
+        elif number_of_guesses == 4 or number_of_guesses == 5:
+            print("Impressive!")
+        elif number_of_guesses == 6 or number_of_guesses == 7:
+            print("Good job!")
+        elif number_of_guesses == 8 or number_of_guesses == 9:
+            print("Took a little longer, but you got there!")
+        elif number_of_guesses >= 10:
+            print("Took a little longer, but you got there!")
+        
 
 
-    #Write all of the IF statetments for the compliment given based on the number of guesses
 
+    
 
-
-
-
-
-
-
-
-
-    #Learn for loop vs while loop
+    
