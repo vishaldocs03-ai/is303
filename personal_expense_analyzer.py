@@ -58,3 +58,6 @@ else:
     print(f"Small expenses: {small_expenses}")
     print(f"Moderate expenses: {moderate_expenses}")
     print(f"Large expenses: {large_expenses}")
+
+
+random = 7
